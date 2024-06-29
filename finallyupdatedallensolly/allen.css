@@ -25,7 +25,7 @@ a{
     color: white;
 }
 .search{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .left-section{
     display: flex;
@@ -120,8 +120,11 @@ select, .store, .contact, .login{
 
 .text-box{
    border: none;
+   position: relative;
+   border-bottom:1px solid black ;
 
 }
+   
 #delivery-img{
     width: 23px;
     height: 23px;
@@ -519,7 +522,7 @@ select, .store, .contact, .login{
 
 }
 b{
-    margin: 2em;
+    /* margin: 2em; */
 }
 .trending{
     width: 20em;
@@ -560,11 +563,12 @@ b{
     display: flex;
     font-size: 25px;
     position: relative;
-    bottom: 3em;
+    bottom: 1em;
+
 }
 .img-logo-1{
     position: relative;
-    left: 9em;
+    left: 7em;
     top: 1em;
     width: 42px;
     height: 50px;
@@ -577,8 +581,8 @@ b{
 .bnt{
     position: relative;
     display: flex;
-    bottom: 9em;
-    left: 20em;
+    /* bottom: 9em; */
+    right:12em;
     background-color: #0e3051;
     color: white;
     border: 1px solid #0e3051;
@@ -590,18 +594,20 @@ b{
 .member{
     text-align: left;
     position: relative;
-    left: 0px;
     background-color: yellow;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 58px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 400px;
+    /* height: 200px; */
+    border-radius: 1em;
 }
 .allensolly-member{
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items:center;
     background-image: url(./images/as-image-bg_2x.jpg);
     height: 501px;
 }
@@ -610,8 +616,170 @@ b{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 245px;
+    height: 45px;
+    background-color: rgb(26, 26, 78);
+    color: white;
+    border-radius: 1em;
+    position: relative;
+    top: 1em;
 }
 
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    
+}
+.logo2-allen{
+    width: 42px;
+    height: 52px;
+}
+.allen-text2{
+    font-size: 30px;
+}
+.final-1{
+    background-color: #0e3051;
+    width:100vw ;
+    height: 100px;
+    margin-top: 4em;
+}
+.img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sign-bnt{
+    background-color:yellow;
+    color:black;
+    width: 145px;
+    height: 45px;
+    border-radius: 1em;
+    margin:3em;
+}
+.final-txt{
+    color: yellow;
+    font-size: 20px;
+    
+}
+.final-txt2{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+.final-txt3{
+    color: white;
 
+}
+.final-2{
+    display: flex;
+    flex-direction: column;
+}
+.aaaaa{
+    display: flex;
+}
+.index1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width:100vw ;
+    height: 150px;
+    margin-top: 4em;
 
-
+}
+#pincode{
+    background-color: yellow;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 1em;
+    font-size: 16px;
+}
+.bg-logo{
+    width: 133px;
+    height: 153px;
+}
+.show-blue-bnt{
+   justify-content: end;
+    position: relative;
+    left:2em;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-bottom: 2px solid red;
+}
+.find{
+    position: relative;
+    left: 1em;
+}
+.index-txt2{
+    font-size: 20px;
+}
+.index-txt{
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.view-bnt{
+    width: 420px;
+    height: 80px;
+    text-align: center;
+    background-color: #0e3051;
+    color: white;
+    border-radius: 10px;
+}
+.view-bnt-main{
+    margin-top: 100px;
+    text-align: center;
+}
+.small-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+.package,.exchange,.fastdelivery{
+    width: 64px;
+    height: 64px;
+}
+.shipping-txt{
+    display: flex;
+    margin-top: 3em;
+    margin-right: 10em;
+}
+.small-2{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 6em;
+}
+.line{
+    border:1px solid gray;
+    margin-top: 2em;
+}
+.footer-text{
+    font-size: 20px;
+    text-align: justify;
+    /* width: 50%; */
+    margin-left: 50px;
+    color: black;
+    line-height: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(68,68,69) ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+    opacity: 0.5;
+    margin-top: 5em;
+}
