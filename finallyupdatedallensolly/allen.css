@@ -109,10 +109,10 @@ select, .store, .contact, .login{
     color: rgb(36, 36, 48);
     margin-top: 2em;
 }
-.intel{
+/* .intel{
     font-size: 20px;
     color: black;
-}
+} */
 #search-icon{
     width: 23px;
     height: 23px;
@@ -539,7 +539,7 @@ b{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    
     padding: 20px;
 }
 .last-image-1{
@@ -768,12 +768,13 @@ b{
     margin-top: 2em;
 }
 .footer-text{
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     /* width: 50%; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin: 100px;
     color: black;
-    line-height: 20px;
+    line-height: 40px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(68,68,69) ; 
     display: flex;
